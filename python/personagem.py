@@ -23,9 +23,9 @@ class Personagem:
 # =============================================cria_o_personagem============================================= #
 
     def cria_personagem(self):
-        nome = "Filipe" #str(input("Qual e o seu nome: ")).capitalize()
-        genero = "M" #str(input("Qual e o seu genero [F/M]: ")).upper()
-        idade =  17 # int(input("Qual sua idade: "))
+        nome = str(input("Qual e o seu nome: ")).capitalize()
+        genero = str(input("Qual e o seu genero [F/M]: ")).upper()
+        idade = int(input("Qual sua idade: "))
         return nome, genero, idade
 
 # =============================================abilidades============================================= #
